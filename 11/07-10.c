@@ -24,8 +24,9 @@ int main()
  case 2:
  resultado = num1 + num2;     
  
- default:
-    break;
+default:
+ printf("Opção inválida. \n");
+     break;
  }
     printf("Resultado: %d", resultado);
     return 0;
